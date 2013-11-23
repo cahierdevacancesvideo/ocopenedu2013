@@ -1,0 +1,4 @@
+
+#qcm 			{ position : fixed; width:600px; height:400px; left:50%; top:200px; background:red; margin-left:-300px;display:none;z-index:1000;}
+#pause			{ display:none;}
+.reponse:hover	{background:yellow;	cursor:pointer;}
