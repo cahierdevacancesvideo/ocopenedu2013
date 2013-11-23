@@ -1,0 +1,11 @@
+allow from all
+
+Options +FollowSymlinks
+
+RewriteEngine on
+
+# DEV
+
+#RewriteCond %{HTTP_HOST} localhost
+RewriteRule v1(.*)$ http://localhost:8080/v1$1 [P]
+
