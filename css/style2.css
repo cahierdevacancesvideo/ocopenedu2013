@@ -4,7 +4,7 @@
 #question		{font-size: 3.35em;font-family: FontAwesome;color:#d52349;text-align:center;}
 #endnote		{font-size: 2.35em;font-family: FontAwesome;color:#ffffff;text-align:center;margin-top:20%;}
 #nbnote			{font-size: 3.35em;font-family: FontAwesome;color:#d52349;text-align:center;}
-
+#titleplayer	{font-size: 2em;color:#d52349;font-family: FontAwesome;line-height:50px;}
 .reponse		{font-size: 1.5em;font-family: FontAwesome;color:white;text-align:center;}
 .reponse:hover	{color:#d52349;	cursor:pointer;}
 .lock			{position:absolute;z-index:1000;margin-left:113px;}
