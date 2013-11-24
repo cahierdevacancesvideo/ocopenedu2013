@@ -56,14 +56,14 @@ var bdd = {
 			{"question":"Quand la révolution a-t-elle éclatée ?","time": 120,"answer":[{"text":"11 ans apres la mort de Voltaire","win":1},{"text":"le 4 aout 1789","win":0},{"text":"A la mort de Voltaire","win":0},{"text":"un beau matin","win":0},]},
 		]},
 
-		{"id":"x17jitg","title":"My way","description":"Comment trouver son chemin dans un pays anglophone avec un vocabulaire simple","date":"20131123","link":"#","min":"images/chemin.jpg","questions":
+		{"id":"x17jitg","title":"My way","description":"Comment trouver son chemin dans un pays anglophone avec un vocabulaire simple","date":"20131123","link":"#","min":"images/chemin.png","questions":
 		[
 			{"question":"De quelle ville est-il question ?","time":  28,"answer":[{"text":"Paris","win":0},{"text":"Londres","win":1},{"text":"New York","win":0},{"text":"Sidney","win":0},]},
 			{"question":"Ou Clement veut-il se rendre ?","time": 38,"answer":[{"text":"Aux toilettes","win":0},{"text":"Au British Museum","win":1},{"text":"A la gare ferroviaire","win":0},{"text":"Au palais de Westminster","win":0},]},
 			{"question":"Qui appelle Noémie et Clément ?","time": 119,"answer":[{"text":"Lucile","win":0},{"text":"Natasha","win":0},{"text":"Pierre","win":0},{"text":"Emilie","win":1},]},
 		]},
 
-		{"id":"x17kgox","title":"Tesla","description":"Une video sur l'électricité de niveau 3ème abordant les notions de courant alternatif, de tension électrique, de court-circuit a travers l'exemple des bobines de Tesla","questions":
+		{"id":"x17kgox","title":"Tesla","description":"Une video sur l'électricité de niveau 3ème abordant les notions de courant alternatif, de tension électrique, de court-circuit a travers l'exemple des bobines de Tesla","date":"20131124","link":"#","min":"images/tesla.png","questions":
 		[
 			{"question":"Quel est le thème abordé ?","time":  21,"answer":[{"text":"World of Warcraft","win":0},{"text":"L'arc électrique","win":1},{"text":"La musique électronique","win":0},{"text":"Les orages","win":0},]},
 		]},
