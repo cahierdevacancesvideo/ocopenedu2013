@@ -8,7 +8,7 @@ $(document).ready(function()
 		var button = 'Voir';
 		if( bdd.video[counter].date > date )
 		{
-			lock1 = '<img src="images/lock.png" class="lock"/>';
+			lock1 = '<img src="images/lock_grey.png" class="lock"/>';
 			button ='Bloqué';
 		}
 			console.log(bdd.video[counter]);
