@@ -48,18 +48,18 @@ var bdd = {
 		]},
 
 		*/
-		{"id":"x17kgox","title":"24 Nov. Tesla","description":"Une video sur l'électricité de niveau 3ème abordant les notions de courant alternatif et de tension électrique à travers l'exemple des bobines de Tesla","date":"20131124","link":"#","min":"images/tesla.png","questions":
+		{"id":"x17kgox","title":"24 Nov. Electricité","description":"Une video sur l'électricité de niveau 3ème abordant les notions de courant alternatif, de tension électrique à travers l'exemple des bobines de Tesla","date":"20131124","link":"#","min":"images/tesla.png","questions":
 		[
 			{"question":"Quel est le thème abordé ?","time":  21,"answer":[{"text":"World of Warcraft","win":0},{"text":"L'arc électrique","win":1},{"text":"La musique électronique","win":0},{"text":"Les orages","win":0},]},
 		]},
-		{"id":"x17jil0","title":"Philosophes","description":"Introduction au concept de vérité absolue et immuable à la base d'une démarche philosophique","date":"20131122","link":"#","min":"images/Philosophe.png","questions":
+		{"id":"x17jil0","title":"23 Nov. La Vérité","description":"Introduction au concept de vérité absolue immuable à la base d'une démarche philosophique","date":"20131122","link":"#","min":"images/Philosophe.png","questions":
 		[
 			{"question":"Qui a dit que : 'le doute est absurde' ?","time":  48,"answer":[{"text":"Voltaire","win":1},{"text":"Diderot","win":0},{"text":"Rousseau","win":0},{"text":"Toto","win":0},]},
-			{"question":"Quel animal transport un bébé dans la vidéo ?","time": 62,"answer":[{"text":"Une hase","win":0},{"text":"Une poule","win":0},{"text":"Une cigogne","win":1},{"text":"Une vache","win":0},]},
+			{"question":"Quel animal transporte un bébé dans la vidéo ?","time": 62,"answer":[{"text":"Une hase","win":0},{"text":"Une poule","win":0},{"text":"Une cigogne","win":1},{"text":"Une vache","win":0},]},
 			{"question":"Quand la révolution a-t-elle éclatée ?","time": 120,"answer":[{"text":"11 ans apres la mort de Voltaire","win":1},{"text":"le 4 aout 1789","win":0},{"text":"A la mort de Voltaire","win":0},{"text":"un beau matin","win":0},]},
 		]},
 
-		{"id":"x17jitg","title":"My way","description":"Comment trouver son chemin dans un pays anglophone avec un vocabulaire simple","date":"20131123","link":"#","min":"images/chemin.png","questions":
+		{"id":"x17jitg","title":"22 Nov. My way","description":"Comment trouver son chemin dans un pays anglophone avec un vocabulaire simple","date":"20131123","link":"#","min":"images/chemin.png","questions":
 		[
 			{"question":"De quelle ville est-il question ?","time":  28,"answer":[{"text":"Paris","win":0},{"text":"Londres","win":1},{"text":"New York","win":0},{"text":"Sidney","win":0},]},
 			{"question":"Ou Clement veut-il se rendre ?","time": 38,"answer":[{"text":"Aux toilettes","win":0},{"text":"Au British Museum","win":1},{"text":"A la gare ferroviaire","win":0},{"text":"Au palais de Westminster","win":0},]},
@@ -69,15 +69,15 @@ var bdd = {
 		
 
 
-		{"id":"xxx","title":"titre","description":"description","date":"20131125","link":"#","min":"http://www.chutextrem.com/images/galerie/saut-en-parachute-tandem-zoom.jpg","questions":
+		{"id":"xxx","title":"25 Nov.","description":"","date":"20131125","link":"#","min":"images/echelles.png","questions":
 		[	
 		]},
 
-		{"id":"xxx","title":"titre","description":"description","date":"20131126","link":"#","min":"http://www.chutextrem.com/images/galerie/saut-en-parachute-tandem-zoom.jpg","questions":
+		{"id":"xxx","title":"26 Nov.","description":"","date":"20131126","link":"#","min":"images/dessinemoi.png","questions":
 		[	
 		]},
 
-		{"id":"xxx","title":"titre","description":"description","date":"20131127","link":"#","min":"http://www.chutextrem.com/images/galerie/saut-en-parachute-tandem-zoom.jpg","questions":
+		{"id":"xxx","title":"27 Nov.","description":"","date":"20131127","link":"#","min":"images/Alexandre.png","questions":
 		[	
 		]}
 

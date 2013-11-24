@@ -52,6 +52,8 @@ setTimeout(function(){
 			var xid = $(this).data('xid');
 	
 			DMplayer.load(xid);
+			$('#qcm').fadeOut();
+			$('#qcm').append('<section id="question">question</section><section id="reponse1"	class="reponse" data-true="0">reponse</section><section id="reponse2"	class="reponse" data-true="1">reponse</section><section id="reponse3"	class="reponse" data-true="0">reponse</section><section id="reponse4"	class="reponse" data-true="0">reponse</section>')
 			
 			
 			});
