@@ -48,7 +48,10 @@ var bdd = {
 		]},
 
 		*/
-
+		{"id":"x17kgox","title":"Tesla","description":"Une video sur l'électricité de niveau 3ème abordant les notions de courant alternatif, de tension électrique, de court-circuit a travers l'exemple des bobines de Tesla","date":"20131124","link":"#","min":"images/tesla.png","questions":
+		[
+			{"question":"Quel est le thème abordé ?","time":  21,"answer":[{"text":"World of Warcraft","win":0},{"text":"L'arc électrique","win":1},{"text":"La musique électronique","win":0},{"text":"Les orages","win":0},]},
+		]},
 		{"id":"x17jil0","title":"Philosophes","description":"Introduction au concept de vérité absolue et immuable à la base d'une démarche philosophique","date":"20131122","link":"#","min":"images/Philosophe.png","questions":
 		[
 			{"question":"Qui a dit que : 'le doute est absurde' ?","time":  48,"answer":[{"text":"Voltaire","win":1},{"text":"Diderot","win":0},{"text":"Rousseau","win":0},{"text":"Toto","win":0},]},
@@ -63,10 +66,7 @@ var bdd = {
 			{"question":"Qui appelle Noémie et Clément ?","time": 119,"answer":[{"text":"Lucile","win":0},{"text":"Natasha","win":0},{"text":"Pierre","win":0},{"text":"Emilie","win":1},]},
 		]},
 
-		{"id":"x17kgox","title":"Tesla","description":"Une video sur l'électricité de niveau 3ème abordant les notions de courant alternatif, de tension électrique, de court-circuit a travers l'exemple des bobines de Tesla","date":"20131124","link":"#","min":"images/tesla.png","questions":
-		[
-			{"question":"Quel est le thème abordé ?","time":  21,"answer":[{"text":"World of Warcraft","win":0},{"text":"L'arc électrique","win":1},{"text":"La musique électronique","win":0},{"text":"Les orages","win":0},]},
-		]},
+		
 
 
 		{"id":"xxx","title":"titre","description":"description","date":"20131125","link":"#","min":"http://www.chutextrem.com/images/galerie/saut-en-parachute-tandem-zoom.jpg","questions":
