@@ -57,7 +57,8 @@ setTimeout(function(){
             console.log(video);
 			$('#titleplayer').html(bdd.video[video].title);
 			$('#qcm').fadeOut();
-			$('#qcm').html('<section id="question"></section><section id="reponse1"	class="reponse" data-true="0"></section><section id="reponse2"	class="reponse" data-true="1">reponse</section><section id="reponse3"	class="reponse" data-true="0"></section><section id="reponse4"	class="reponse" data-true="0"></section>')
+			$('#qcm').append('<section id="question"></section>'
+                + '<section id="reponse1"	class="reponse" data-true="0"></section><section id="reponse2"	class="reponse" data-true="1"></section><section id="reponse3"	class="reponse" data-true="0"></section><section id="reponse4"	class="reponse" data-true="0"></section>')
 			
 			
 			});
