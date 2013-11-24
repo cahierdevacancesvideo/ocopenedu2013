@@ -1,4 +1,10 @@
 
-#qcm 			{ position : fixed; width:600px; height:400px; left:50%; top:200px; background:red; margin-left:-300px;display:none;z-index:1000;}
+#qcm 			{ position : absolute;background:rgba(0,0,0,0.6); margin:0 auto;display:none;z-index:1000;padding:20px;}
 #pause			{ display:none;}
-.reponse:hover	{background:yellow;	cursor:pointer;}
+#question		{font-size: 3.35em;font-family: FontAwesome;color:#d52349;text-align:center;}
+#endnote		{font-size: 2.35em;font-family: FontAwesome;color:#ffffff;text-align:center;margin-top:20%;}
+#nbnote			{font-size: 3.35em;font-family: FontAwesome;color:#d52349;text-align:center;}
+
+.reponse		{font-size: 1.5em;font-family: FontAwesome;color:white;text-align:center;}
+.reponse:hover	{color:#d52349;	cursor:pointer;}
+.lock			{position:absolute;z-index:1000;margin-left:113px;}

@@ -1,5 +1,7 @@
 (function() {
  
+setTimeout(function(){
+
         var e = document.createElement('script');
         e.async = true;
         e.type = 'text/javascript';
@@ -7,23 +9,26 @@
         var s = document.getElementsByTagName('script')[0];
  
         s.parentNode.insertBefore(e, s);
+
+},2000);
+
     }());
  
-    // This function init the player once the SDK is loaded
+    // This function init the DMplayer once the SDK is loaded
     window.dmAsyncInit = function()
     {	var step = 0;
-        // PARAMS is a javascript object containing parameters to pass to the player if any (eg: {autoplay: 1})
-        var PARAMS = {background : 'ABE866', autoplay : 1, chromeless : 0,
-                                foreground : '000000',
-                                html : 0, highlight : '857580',
+        // PARAMS is a javascript object containing parameters to pass to the DMplayer if any (eg: {autoplay: 1})
+        var PARAMS = {background : '222222', autoplay : 1, chromeless : 0,
+                                foreground : '444444',
+                                highlight : '857580',
                                 info : 1, network : 'dsl', autoplay : 1};
-        var player = DM.player("player", {video: bdd.video[video].id, width: "1400", height: "500", params: PARAMS});
+        var DMplayer = DM.player("DMplayer", {video: bdd.video[video].id, width: "1400", height: "500", params: PARAMS});
  
  
-        // 4. We can attach some events on the player (using standard DOM events)
-        player.addEventListener("apiready", function(e)
+        // 4. We can attach some events on the DMplayer (using standard DOM events)
+        DMplayer.addEventListener("playing", function(e)
         {
-                console.log('apiready');
+                //player.setVolume(100); 
         });
  
         
@@ -38,18 +43,15 @@
                 var lc = '#' + controls[i];
                 $(lc).click(function() {
  
-                        eval('player.' + this.id + '();');
+                        eval('DMplayer.' + this.id + '();');
                 });
         }
         
-        player.addEventListener("playing", function(e)
-        {
-            player.setVolume(0);        
-        });
+      
         $('.reponse').click(function()
 		{
 			$('#qcm').fadeOut();
-			player.play();
+			DMplayer.play();
 			
 			if ($(this).data('true') == 1)
 				note++;
@@ -58,22 +60,39 @@
 		});
 		
 		
-		player.addEventListener("timeupdate", function(e)
+		DMplayer.addEventListener("timeupdate", function(e)
         {
             eventSent = false;
-            t = String(player.currentTime);
+            t = String(DMplayer.currentTime);
             currentTime = t.split('.')
-            
+            endTime = String(DMplayer.duration).split('.');
             
             if( false == eventSent)
             {
-            if (bdd.video[video].questions[step].time == currentTime[0])
-			{
-				console.log(currentTime[0]);
-				console.log(currentTime[0]);
-				console.log(step);
+            
+            if (endTime[0] == currentTime[0])
+            {
+            	$('#qcm').css('background','black');
+            	$('#qcm').html('');
+            	$('#qcm').fadeIn();
+            	$('#qcm').append('<header id="endnote"><h1 >Vous avez eu <strong id="nbnote">'+note*2+'<strong>/20</h1></header>');
+            	
+            }
+            if (bdd.video[video].questions[step] != undefined && bdd.video[video].questions[step].time -1 == currentTime[0])
+			{	
+				DMplayer.pause();
 				
-				player.pause();
+				console.log(bdd.video[video].questions[step].time);
+				
+				width 	= parseInt($('#DMplayer').css('width'));
+				height	= parseInt($('#DMplayer').css('height'));
+				position = $('#DMplayer').offset();
+				
+				$('#qcm').css('width',width);
+				$('#qcm').css('height',height);
+				$('#qcm').css('left', position.left);
+				$('#qcm').css('top',position.top);
+				
 				$('#qcm').fadeIn();
 			}
                 $('#question').html(bdd.video[video].questions[step].question);
