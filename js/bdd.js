@@ -48,7 +48,7 @@ var bdd = {
 		]},
 
 		*/
-		{"id":"x17kgox","title":"Tesla","description":"Une video sur l'électricité de niveau 3ème abordant les notions de courant alternatif, de tension électrique, de court-circuit a travers l'exemple des bobines de Tesla","date":"20131124","link":"#","min":"images/tesla.png","questions":
+		{"id":"x17kgox","title":"24 Nov. Tesla","description":"Une video sur l'électricité de niveau 3ème abordant les notions de courant alternatif et de tension électrique à travers l'exemple des bobines de Tesla","date":"20131124","link":"#","min":"images/tesla.png","questions":
 		[
 			{"question":"Quel est le thème abordé ?","time":  21,"answer":[{"text":"World of Warcraft","win":0},{"text":"L'arc électrique","win":1},{"text":"La musique électronique","win":0},{"text":"Les orages","win":0},]},
 		]},

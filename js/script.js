@@ -28,11 +28,5 @@ $(document).ready(function()
 			$('#vosvideos').append('</div>');		
 			
 			
-		$('.refreshplayer').click(function()
-		{
-			var xid = $(this).data('xid');
-			alert(xid);
-			DMplayer.load(xid);
-			
-		});
+		
 });

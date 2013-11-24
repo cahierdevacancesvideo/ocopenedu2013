@@ -47,7 +47,15 @@ setTimeout(function(){
                 });
         }
         
-      
+        $('.refreshplayer').click(function()
+			{
+			var xid = $(this).data('xid');
+			alert(xid);
+			console.log(DMplayer);
+			DMplayer.load(xid);
+			
+			
+			});
         $('.reponse').click(function()
 		{
 			$('#qcm').fadeOut();
@@ -78,6 +86,7 @@ setTimeout(function(){
             	$('#qcm').append('<header id="endnote"><h1 >Vous avez eu <strong id="nbnote">'+note*2+'<strong>/20</h1></header>');
             	
             }
+          
             if (bdd.video[video].questions[step] != undefined && bdd.video[video].questions[step].time -1 == currentTime[0])
 			{	
 				DMplayer.pause();
