@@ -50,8 +50,7 @@ setTimeout(function(){
         $('.refreshplayer').click(function()
 			{
 			var xid = $(this).data('xid');
-			alert(xid);
-			console.log(DMplayer);
+	
 			DMplayer.load(xid);
 			
 			
