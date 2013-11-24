@@ -18,10 +18,10 @@ setTimeout(function(){
     window.dmAsyncInit = function()
     {	var step = 0;
         // PARAMS is a javascript object containing parameters to pass to the DMplayer if any (eg: {autoplay: 1})
-        var PARAMS = {background : '222222', autoplay : 1, chromeless : 0,
+        var PARAMS = {background : '222222', autoplay : 0, chromeless : 0,
                                 foreground : '444444',
                                 highlight : '857580',
-                                info : 1, network : 'dsl', autoplay : 1};
+                                info : 1, network : 'dsl'};
         var DMplayer = DM.player("DMplayer", {video: bdd.video[video].id, width: "1400", height: "500", params: PARAMS});
  
  
@@ -53,7 +53,7 @@ setTimeout(function(){
 	
 			DMplayer.load(xid);
 			$('#qcm').fadeOut();
-			$('#qcm').append('<section id="question">question</section><section id="reponse1"	class="reponse" data-true="0">reponse</section><section id="reponse2"	class="reponse" data-true="1">reponse</section><section id="reponse3"	class="reponse" data-true="0">reponse</section><section id="reponse4"	class="reponse" data-true="0">reponse</section>')
+			$('#qcm').append('<section id="question"></section><section id="reponse1"	class="reponse" data-true="0"></section><section id="reponse2"	class="reponse" data-true="1">reponse</section><section id="reponse3"	class="reponse" data-true="0"></section><section id="reponse4"	class="reponse" data-true="0"></section>')
 			
 			
 			});
