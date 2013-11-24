@@ -17,7 +17,7 @@
                                 foreground : '000000',
                                 html : 0, highlight : '857580',
                                 info : 1, network : 'dsl', autoplay : 1};
-        var player = DM.player("player", {video: bdd.video[video].id, width: "1400e", height: "500", params: PARAMS});
+        var player = DM.player("player", {video: bdd.video[video].id, width: "1400", height: "500", params: PARAMS});
  
  
         // 4. We can attach some events on the player (using standard DOM events)
