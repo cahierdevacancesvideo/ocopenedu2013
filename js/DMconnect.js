@@ -52,6 +52,7 @@ setTimeout(function(){
 			var xid = $(this).data('xid');
 	
 			DMplayer.load(xid);
+			video = bdd.video[video].pos;
 			$('#titleplayer').html(bdd.video[video].title);
 			$('#qcm').fadeOut();
 			$('#qcm').append('<section id="question"></section><section id="reponse1"	class="reponse" data-true="0"></section><section id="reponse2"	class="reponse" data-true="1">reponse</section><section id="reponse3"	class="reponse" data-true="0"></section><section id="reponse4"	class="reponse" data-true="0"></section>')

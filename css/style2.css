@@ -8,3 +8,4 @@
 .reponse		{font-size: 1.5em;font-family: FontAwesome;color:white;text-align:center;}
 .reponse:hover	{color:#d52349;	cursor:pointer;}
 .lock			{position:absolute;z-index:1000;margin-left:113px;}
+#qcm section	{margin-bottom:1em;}

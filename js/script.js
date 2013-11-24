@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-
+$('#titleplayer').html(bdd.video[video].title);
 		$('#vosvideos').append('<div class="row">');
 		while (counter - 1 < nbvideo)
 		{
